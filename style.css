@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li {
+  display: inline-block;
+  margin: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li a:hover {
+  color: coral;
+  transition: 0.5s ease;
+}
+.logo {
+  margin: 10px;
+  padding-left: 15px;
+}
+.logo:hover {
+  color: cornflowerblue;
+}
+.logo span {
+  color: coral;
+}
+.intro-container {
+  display: flex;
+  height: 500px;
+}
+
+.Our-identity {
+  padding-left: 5px;
+}
+.Orange-color {
+  color: rgba(248, 104, 52, 0.973);
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, red);
+  padding: 10px 20px;
+  color: white;
+  font-weight: 500;
+  border-radius: 40px;
+  margin-left: 5px;
+}
+#T-link {
+  text-decoration: none;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.half-width img {
+  width: 100%;
+  height: 70%;
+  padding-top: 1%;
+}
+.about-container {
+  display: flex;
+  margin: 20 0px;
+  height: 500px;
+  background-image: url(images/7.png);
+}
+
+.about-us {
+  padding-left: 10px;
+}
+.title {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+/* Our-menu section start*/
+.our-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+  grid: column gap 20px;
+}
+.items {
+  padding: 0 20px;
+}
+.items img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
+button {
+  margin-bottom: 10px;
+}
+
+/* footer section start*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 80px;
+}
+p.text {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+p.text-details {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 5px;
+  color: white;
+  padding-bottom: 10px;
+}
