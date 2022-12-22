@@ -12,9 +12,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style.css" />
+    
   </head>
-  <body>
+  <body class="kontakt">
+    
     <div class="navbar">
       <h1 class="logo">BD F<span>OO</span>D</h1>
       <ul>
@@ -23,41 +24,42 @@
       </ul>
     </div>
     <div class="contact">
-      <h1>Contact us</h1>
+      <h1>Contact Us</h1>
       
     </div>
     <div class="container">
-      <div class="address"><div class="column-1">
-        <div><label for="e-postadress">E-mail </label>
-          <input type="text" name="postadress"  />
-        </div>
-        <div>
-          <label for="meddela">Message</label>
-          <input type="text" name="Meddelande"  />
-        </div>
-        
-        <div class="select">
+      <div class="address">
+        <div class="column-1">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="Enter your E-mail.." />
+          <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Write message Here.."
+              required
+            ></textarea>
+          <div class="select">
           <select id="help">
-            <option selected disabled hidden>Choose service</option>
-            <option value="what do you need help">Need help</option>
-            <option value="what do you need help">About us</option>
-            
-          </select>
+            <option selected disabled hidden>How can we help you</option>
+            <option value="what do you need help">Purchase of product/service</option>
+            <option value="what do you need help">Questions about the company</option>
+            <option value="what do you need help">Opnions about the website</option>
+          </select> 
           
         </div>
         <br>
-        <div> <a
-          class="button"
-          target="_blank"
-          href=""
-          >Submit</a
-        ></div>
+        <button type="submit" id=""><b>Submit</b></button>
         
-      </div></div>
+        
+        
+        </div>
+      </div>
       
       <div class="address">
         <img src="images/pexels-kaique-rocha-65438.jpg" alt="">
-        <p><b>Address:</b>   Hanstavägen 49, Kista, Stockholm</p>
+        <p>Hanstavägen 49, Kista, Stockholm</p>
         <p>Telephone no- 0712424532</p>
       </div>
    
