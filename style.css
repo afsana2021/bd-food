@@ -12,6 +12,7 @@
   background-color: black;
   color: white;
   display: flex;
+
   justify-content: space-between;
 }
 .navbar ul li {
@@ -36,6 +37,15 @@
 .logo span {
   color: coral;
 }
+#change-bg {
+  width: 40px;
+  height: 20px;
+  padding-right: 2px;
+
+  margin: 20px 20px;
+}
+
+/* intro start*/
 .intro-container {
   display: flex;
   height: 500px;
@@ -129,10 +139,10 @@ p.text-details {
   padding-bottom: 10px;
 }
 
-/* contact.html section start*/
+/* contact.html section start
 body.kontakt {
   background-color: #2f4f4f;
-}
+}*/
 
 .contact h1 {
   color: black;
@@ -184,4 +194,15 @@ body.kontakt {
   width: 100%;
   height: 70%;
   padding-top: 1%;
+}
+@media only screen and (min-width: 768px) {
+  .half-width img {
+    display: block;
+    width: 100%;
+
+    padding-bottom: 30px;
+  }
+  .half-width {
+    width: 100%;
+  }
 }
