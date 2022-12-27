@@ -139,9 +139,11 @@ p.text-details {
   padding-bottom: 10px;
 }
 
-contact.html section start body.kontakt {
+/* contact.html section start*/
+body.kontakt {
   background-color: #2f4f4f;
 }
+
 .contact h1 {
   color: black;
   text-align: center;
